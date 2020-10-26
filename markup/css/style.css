@@ -118,6 +118,31 @@ body {
 .header .contact-form {
 	display: none;
 }
+.carousel img {
+	width: 400px;
+	height: 200px;
+}
+.carousel .slick-dots {
+	display: flex;
+	justify-content: center;
+}
+.carousel .slick-dots li {
+	margin: 0 5px;
+}
+.carousel .slick-dots li button {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	background: #fff;
+	font-size: 0;
+	text-indent: -9999px;
+	padding: 0;
+	outline: none;
+}
+.carousel .slick-dots li.slick-active button {
+	background: #000;
+}
 
 /* tablet */
 
